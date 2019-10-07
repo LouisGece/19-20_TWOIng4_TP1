@@ -1,0 +1,37 @@
+body{
+	padding:0px;
+	margin:0px;
+	
+}
+/*Css pour le nav bar*/
+.navbar{
+	background:black;
+}
+
+.text{
+	left:50%;
+	position:absolute;
+	top:20%;
+	transform:translate(-50%,-55%);
+	text-align:center;
+}
+
+.page-footer{
+	position: absolute;
+    bottom: 0;
+    width:100%;
+	background-color:black;
+}
+
+.footer-text{
+	color:white;
+}
+
+.btn{
+	background-color:red;
+	color: white;
+	}
+
+.navbar-collapse{
+	justify-content:flex-end; /*justifier à droite*/
+}
