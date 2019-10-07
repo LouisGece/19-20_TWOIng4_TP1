@@ -11,7 +11,7 @@ body{
 .text{
 	left:50%;
 	position:absolute;
-	top:20%;
+	top:250px;
 	transform:translate(-50%,-55%);
 	text-align:center;
 }
@@ -34,4 +34,13 @@ body{
 
 .navbar-collapse{
 	justify-content:flex-end; /*justifier à droite*/
+}
+
+.photo{
+	width: 25%;
+	height: 25%;
+}
+
+.form{
+	background-color:#e6e6e6;
 }
